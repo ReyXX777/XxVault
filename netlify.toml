@@ -1,6 +1,6 @@
 [build]
-  command = "ng build --configuration=production"
-  publish = "dist/secure-vault"
+  command = "npm run build:ssr"
+  publish = "dist/secure-messenger/browser"
 
 [[plugins]]
-  package = "@netlify/plugin-angular" # NOT angular-runtime
+  package = "@netlify/angular-runtime"   # ✅ This is the correct one
