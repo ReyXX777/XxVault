@@ -1,0 +1,6 @@
+[build]
+  command = "ng build --configuration=production"
+  publish = "dist/secure-vault"
+
+[[plugins]]
+  package = "@netlify/plugin-angular" # NOT angular-runtime
