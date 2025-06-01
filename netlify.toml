@@ -1,6 +1,6 @@
 [build]
   command = "npm run build:ssr"
-  publish = "dist/secure-messenger/browser"
+  publish = "dist/secure-vault/browser"
 
 [[plugins]]
   package = "@netlify/angular-runtime"   # ✅ This is the correct one
